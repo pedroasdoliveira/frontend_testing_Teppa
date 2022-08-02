@@ -4,4 +4,6 @@ export const colors = {
 
     primaryColor: '#023E7D',
     secondaryColor: '#001845',
+
+    cards: '#ADB5BD75',
 }
