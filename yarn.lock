@@ -8093,6 +8093,11 @@ react-scripts@5.0.1:
   optionalDependencies:
     fsevents "^2.3.2"
 
+react-stepzilla@^7.0.0:
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/react-stepzilla/-/react-stepzilla-7.0.0.tgz#cea91c5ff0fe6425da2939980559ec6bf296e987"
+  integrity sha512-8SbVrNyCvVIewC1NcolmcxXE7lP4U38+5fQRa5jfXEv3AscOZikS9Z2DsTOWjL2F9VFy/YHb8pZe3p3BkRquPw==
+
 react@^18.2.0:
   version "18.2.0"
   resolved "https://registry.yarnpkg.com/react/-/react-18.2.0.tgz#555bd98592883255fa00de14f1151a917b5d77d5"
