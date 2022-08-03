@@ -1,8 +1,13 @@
-import React from 'react'
+import Card from '../../components/Cards'
+import * as Style from './style'
 
 const RegisterUser = () => {
   return (
-    <div>RegisterUser</div>
+    <Style.MainPage>
+      <Card>
+        
+      </Card>
+    </Style.MainPage>
   )
 }
 
