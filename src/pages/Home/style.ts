@@ -13,24 +13,11 @@ export const MainPage = styled.main`
   `}
 `;
 
-export const CardPage = styled.section`
-  ${({ theme }) => css`
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: ${theme.colors.cards};
-    border-radius: 15px;
-    width: 50vw;
-    height: 45vh;
-  `}
-`;
-
 export const TitlePage = styled.h1`
   ${({ theme }) => css`
     ${theme.mixins.titleStyle}
     text-align: center;
-    margin: 1rem 0;
+    margin: 1.5rem 0;
   `}
 `;
 
@@ -45,25 +32,3 @@ export const Description = styled.p`
         }
     `}
 `
-
-export const ButtonLog = styled.button`
-  ${({ theme }) => css`
-    width: calc(100% - 50%);
-    height: 45px;
-    border: transparent;
-    border-radius: 10px;
-    background-color: ${theme.colors.secondaryColor};
-    color: ${theme.colors.bodyColor};
-    box-shadow: 4px 4px 10px 1.5px rgba(0, 0, 0, 0.25);
-    font-weight: 700;
-    font-size: 1.2rem;
-    text-align: center;
-    margin: 1rem 0;
-    cursor: pointer;
-    transition: all ease-in-out 0.6s;
-    :hover {
-      transform: scale(1.1);
-      color: #f4f5f9;
-    }
-  `}
-`;
