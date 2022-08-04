@@ -5,5 +5,5 @@ export interface LoginUser {
 
 export type LoginContextType = {
     login: LoginUser;
-    valuesLogin: () => void
+    valuesLogin?: (login: LoginUser) => void
 }
