@@ -10,12 +10,12 @@ import { LoginUser, LoginContextType } from "../types/interfaces";
 // export const useLogin = () => useContext(loginContext);
 
 // export const loginContextProvider = ({ children }: Prop) => {
-//   const [loginValue, setLoginValue] = useState({
+//   const [loginValue, setLoginValue] = useState<LoginUser>({
 //     email: "",
 //     password: "",
 //   });
 
 //   return (
-//     <loginContext.Provider value={{loginValue}}>{children}</loginContext.Provider>
+//     <loginContext.Provider value={{login: loginValue}}>{children}</loginContext.Provider>
 //   );
 // };
