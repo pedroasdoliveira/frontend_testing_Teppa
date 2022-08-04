@@ -1,9 +1,11 @@
 import { useNavigate } from "react-router-dom";
 import Card from "../../components/Cards";
+import { LoginUser } from "../../types/interfaces";
 import * as Style from "./style";
 
 const Login = () => {
   const navigate = useNavigate();
+
   return (
     <Style.MainPage>
       <Card>

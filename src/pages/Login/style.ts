@@ -33,6 +33,7 @@ export const LoginInput = styled.input`
     border: 1px solid #000;
     outline: none;
     margin-bottom: 1rem;
+    padding: 0 .5rem;
   `}
 `;
 export const RegisterUser = styled.p`
